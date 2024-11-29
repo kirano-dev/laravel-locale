@@ -1,0 +1,26 @@
+{
+    "name": "kirano-dev/laravel-locale",
+    "description": "Simple package for changing locales",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "KiranoDev\\LaravelLocale\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kirano-dev",
+            "email": "developer@kirano.uz"
+        }
+    ],
+    "require-dev": {
+        "laravel/framework": "^11.30"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KiranoDev\\LaravelLocale\\Providers\\LaravelLocaleServiceProvider"
+            ]
+        }
+    }
+}
